@@ -1,2 +1,2 @@
 # DGSW-WEB-PROGRAMMING
-This is a space where we review the contents and problems we learned in WEB programming class at Daegu Software High School and share code.
+대구소프트웨어고등학교 WEB 프로그래밍 시간에 배운 내용을 복습하는 공간입니다.
