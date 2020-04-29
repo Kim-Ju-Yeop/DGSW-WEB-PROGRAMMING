@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <!--table 태그를 통해 웹 화면에 테이블을 구성할 수 있습니다.-->
+        <!--border 속성은 table의 두께를 나타냅니다.-->
+        <!--tr 태그는 각 행의 갯수를 의미하며 td 태그는 그 행의 각 데이터를 뜻합니다.-->
+        <table border="1">
+            <tr>
+                <td>홍길동</td>
+                <td>98</td>
+            </tr>
+
+            <tr>
+                <td>김철수</td>
+                <td>80</td>
+            </tr>
+        </table>
+
+        <table border="1">
+
+            <!--테이블의 큰 제목을 지정해줄 수있다.-->
+            <caption>
+                최근에 본 영화들
+            </caption>
+
+            <tr>
+                <!--th 태그를 사용한다면 테이블의 첫 행 제목을 구성할 수 있습니다.-->
+                <th>영화제목</th>
+                <th>연도</th>
+                <th>감독</th>
+                <th>평가</th>
+            </tr>
+
+            <tr>
+                <td>라이프 오브 파이</td>
+                <td>2013</td>
+                <td>이안</td>
+                <td>8.68</td>
+            </tr>
+
+            <tr>
+                <td>레미제라블</td>
+                <td>2012</td>
+                <td>톰후퍼</td>
+                <td>8.28</td>
+            </tr>
+
+            <tr>
+                <td>장고: 분노의 추격자</td>
+                <td>2012</td>
+                <td>타란티노</td>
+                <td>8.29</td>
+            </tr>
+        </table>
+
+        <table border="1">
+            <tr>
+                <td>100</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+
+            <tr>
+                <td>400</td>
+                <td>500</td>
+                <td>600</td>
+            </tr>
+
+            <tr>
+                <td>700</td>
+                <td>800</td>
+                <td>900</td>
+            </tr>
+        </table>
+
+        <table border="1">
+            <tr>
+                <th>1열</th>
+                <th>2열</th>
+                <th>3열</th>
+            </tr>
+
+            <tr>
+                <!--rowspan 태그는 행병합을 수행할 수 있다. (상하)-->
+                <td rowspan="2">1행 1열</td>
+                <td>1행 2열</td>
+                <td>1행 3열</td>
+            </tr>
+
+            <tr>
+                <td>2행 2열</td>
+                <td>2행 3열</td>
+            </tr>
+
+            <tr>
+                <!--colspan 태그는 열병합을 수행할 수 있다. (좌우)-->
+                <td colspan="3">3행 1열</td>
+            </tr>
+        </table>
+    </body>
+</html>
