@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <!--form 태그 아래에 input 태그들을 추가할 것입니다.-->
+        <!--input 태그에서 type 속성은 input 태그의 형식, name 속성은 서버로 전달하는 이름이다.-->
+        <form>
+
+            <!--text 타입에서는 일반적인 텍스트를 입력할 수 있습니다.-->
+            이름 : <input type="text" name="name"><br>
+            학번 : <input type="text" name="number" size=10><br>
+
+            <!--password 타입에서는 사용자가 입력한 값이 가려진다.-->
+            패스워드 : <input type="password" name="pass"><br>
+
+            <!--radio 타입에서는 name, value 값을 반드시 지정해야한다.-->
+            <!--또한 name 값이 같아야 동일한 그룹으로 취급하며 동일한 그룹 안에서는 하나만 선택가능하다.-->
+            성별 : <input type="radio" name="gender" value="male">남성
+                  <input type="radio" name="gender" value="female">여성<br>
+
+            <!--checkbox 타입에서는 여러개의 항목을 선택할 수 있습니다.-->      
+            <!--name 값을 동일하게 함으로써 같은 그룹이라는 것을 의미한다.-->
+            과일 선택 : <input type="checkbox" name="fruits" value="applie" checked>Apple
+                      <input type="checkbox" name="fruits" value="grape">Grape
+                      <input type="checkbox" name="fruits" value="orange">Orange     
+        </form>
+
+        <br>
+
+        <!--form 태그 안에서 name의 값은 서버로 전송할 때의 이름이며 action은 값의 형식으로 또한 method는 방식을 의미한다.-->
+        <form name="input" action="getid.jsp" method="GET">
+            사용자 아이디 : <input type="text" name="user"><br>
+                         <input type="submit" value="제출">
+                         <input type="reset" value="초기화"><br>
+
+            물품가격 : <input type="text" name="user"><br>
+            수량 : <input type="text" name="user"><br>
+
+            <!--button으로 지정을하여 버튼이 표시되도록 설정합니다.-->
+            <!--onclick 속성을 통해 클릭 이벤트 처리를 진행합니다.-->
+            <input type="button" value="계산" onclick="alert('10000원입니다.')"> <br>
+
+            아이디 : <input type="text" name="name"> <br>
+                   <input type="image" src="/2020.05.08/file/sumbit.jpeg" alt="제출 버튼" width="30" height="30">
+        </form>
+    </body>
+</html>
