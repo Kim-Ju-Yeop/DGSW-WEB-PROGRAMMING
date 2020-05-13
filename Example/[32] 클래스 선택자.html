@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>셀렉터 만들기</title>
+
+        <!--클래스 선택자 형식입니다 . 기호를 통해 클래스 이름을 표현합니다.-->
+        <style>
+            .main{background-color: aliceblue;}
+
+            /*앞에 body를 붙여주는 이유는 body 태그에 위치한 warning 클래스 이름을 가진 값만을 CSS 설정해주기 위해서입니다.*/
+            body.warning{color: red;}
+        </style>
+    </head>
+
+    <!--아이디 선택자와 같이 태그 속 속성에 class 이름을 설정합니다.-->
+    <body class="main">
+        <h3>Web Programming</h3>
+        <hr>
+        <div>
+            <div>2학기 <string>학습 내용</string></div>
+            <ul>
+                <li>HTML5</li>
+                <li><strong>CSS</strong></li>
+                <li>JAVASCRIPT</li>
+            </ul>
+            <div class="warning">60점 이하는 F!</div>
+        </div>
+    </body>
+</html>

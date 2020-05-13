@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>셀렉터 만들기</title>
+
+        <!--의사 클래스입니다. 사용자의 행동에 따른 처리를 설정하여 각 상황에 따라 다른 결과를 보여줍니다.-->
+        <style>
+            h3::first-letter{color: red;}
+            li:hover{background: yellowgreen;}
+            a:link{
+                text-decoration: none;
+                color: blue;
+                background-color: white;
+            }
+            a:visited{
+                text-decoration: none;
+                color: green;
+                background-color: silver;
+            }
+            a:hover{
+                text-decoration: none;
+                color: white;
+                background-color: blue;
+            }
+        </style>
+    </head>    
+    <body>
+        <h3>Web Programming</h3>
+        <hr>
+        <div>
+            <div>2학기 <string>학습 내용</string></div>
+            <ul>
+                <li>HTML5</li>
+                <li><strong>CSS</strong></li>
+                <li>JAVASCRIPT</li>
+            </ul>
+            <div>60점 이하는 F!</div>
+        </div>
+        <div>
+            <p><a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=136873">겨울 왕국</a></p>
+            <p><a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=190395">눈의 여왕</a></p>
+            <p><a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=75470">라푼젤</a></p>
+            <p><a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=65021">라따뚜이</a></p>
+        </div>
+    </body>
+</html>
