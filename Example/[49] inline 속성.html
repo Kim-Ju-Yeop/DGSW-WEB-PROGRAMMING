@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <!--ul 태그의 display 속성을 inline으로 변경하여 가로로 설정하고 있습니다.-->
+        <style>
+            #menubar{
+                background-color:olive;
+            }
+            #menubar ul{
+                padding: 0;
+                margin: 0;
+                width: 570px;
+            }
+            #menubar ul li{
+                display: inline;
+                list-style-type: none;
+                padding: 0px 15px;
+            }
+            #menubar ul li a{
+                color: white;
+                text-decoration: none;
+            }
+            #menubar ul li a:hover{
+                color: orchid;
+            }
+        </style>
+    </head>
+    <body>
+        <nav id="menubar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Espresso</a></li>
+                <li><a href="#">Cappuccino</a></li>
+                <li><a href="#">Cafe Latte</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </nav>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--테이블에 대한 설정으로 다양한 기능들이 존재합니다.-->
+        <style>
+            table{
+                border-collapse: collapse;
+            }
+            td, th{
+                text-align: left;
+                padding: 5px 50px 5px 5px; /** 상 우 하 좌 */
+            }
+            thead, tfoot{
+                color: yellow;
+                background-color: gray;
+            }
+            tbody tr:nth-child(even){
+                background-color: powderblue;
+            }
+            tbody tr:hover{
+                background-color: pink;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>1학기 성적</h3>
+        <hr>
+        <table>
+            <thead>
+                <tr><th>이름</th><th>HTML</th><th>CSS</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>황기태</td><td>80</td><td>70</td></tr>
+                <tr><td>이재문</td><td>95</td><td>99</td></tr>
+                <tr><td>이병은</td><td>85</td><td>90</td></tr>
+                <tr><td>김남윤</td><td>50</td><td>40</td></tr>
+            </tbody>
+            <tfoot>
+                <tr><th>합</th><th>310</th><th>249</th></tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
