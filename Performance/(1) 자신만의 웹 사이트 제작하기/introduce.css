@@ -1,0 +1,104 @@
+*{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: black;
+}
+
+#logo{
+    width: 70px;
+    height: 70px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li a{
+    padding: 0px 10px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+  font-weight: 700;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sub{
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.mainForm{
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.leftForm{
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.leftForm #netflix{
+    width: 200px;
+    height: 200px;
+}
+
+.leftForm #tiving{
+    width: 200px;
+    height: 150px;
+}
+
+.leftForm #watcha{
+    width: 200px;
+    height: 150px;
+}
+
+.leftForm #pooq{
+    width: 200px;
+    height: 200px;
+}
+
+#client{
+    width: 1000px;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+#footer{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+  
+#footer div{
+    padding-bottom: 30px; 
+}
+  
+#footer div p{
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+  
+#footer img{
+    width: 40px;
+    filter: grayscale(80%);
+    margin-right: 10px;
+}
+  
+#footer img:hover{
+    filter: grayscale(0%);
+}
